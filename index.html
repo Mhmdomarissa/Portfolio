@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mohammad Al Issa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Moe</a>
+        <nav class="navigation">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="main">
+        <div class="overlay">
+            <div class="container">
+                <h2>Hello, I'm Mohammad<br><span>Front-end Developer</span></h2>
+                <h3>Masterful at crafting stunning interfaces.</h3>
+                <a href="#projects" class="mainbutton">View my Work</a>
+                <div class="social-icons">
+                    <a href="https://github.com/Mhmdomarissa" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mohammad-omar-al-issa-309828297" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/omar_issa09" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate Front-end Developer with a knack for creating beautiful and functional user interfaces. With a strong background in HTML, CSS, and JavaScript, I bring designs to life with clean and efficient code.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <!-- Example Project -->
+                <div class="project-item">
+                    <img src="path/to/project-image1.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>Description of the project.</p>
+                    <a href="https://github.com/yourusername/project1" target="_blank" class="project-link">View Project</a>
+                </div>
+                <!-- Example Project -->
+                <div class="project-item">
+                    <img src="path/to/project-image2.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>Description of the project.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank" class="project-link">View Project</a>
+                </div>
+                <!-- Add more projects here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit_form_url" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="mainbutton">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
